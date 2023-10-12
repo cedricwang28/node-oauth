@@ -49,6 +49,6 @@ const oauth = async ctx => {
 app.use(main);
 app.use(route.get('/oauth/redirect', oauth));
 
-app.listen(80,()=>{
-  console.log('listening to 80 port');
+app.listen(8080,()=>{
+  console.log('listening to 8080 port');
 });
