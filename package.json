@@ -1,10 +1,10 @@
 {
-  "name": "node-oauth-demo",
+  "name": "node-oauth",
   "version": "1.0.0",
   "description": "a demo of OAuth2.0 using node",
   "main": "index.js",
   "repository": "https://github.com/ruanyf/node-oauth-demo",
-  "author": "Ruan Yifeng",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",

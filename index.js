@@ -8,6 +8,7 @@ const path = require('path');
 const serve = require('koa-static');
 const route = require('koa-route');
 const axios = require('axios');
+const { log } = require('console');
 
 const app = new Koa();
 
@@ -48,4 +49,6 @@ const oauth = async ctx => {
 app.use(main);
 app.use(route.get('/oauth/redirect', oauth));
 
-app.listen(8080);
+app.listen(80,()=>{
+  console.log('listening to 80 port');
+});
